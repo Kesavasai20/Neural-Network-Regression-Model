@@ -88,15 +88,18 @@ def train_model(my_nn, X_train, y_train, criterion, optimizer, epochs=3000):
 ```
 ## Dataset Information
 
-![image](https://github.com/user-attachments/assets/3721fa1b-c030-4e3e-831a-8469d1d2902f)
+![image](https://github.com/user-attachments/assets/523628fe-846f-41aa-93dd-9c92dac9a996)
+
 
 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/6907b439-0faa-4553-be83-62e94deafd63)
+![image](https://github.com/user-attachments/assets/866bfd6f-31d8-4333-a58b-dea610e4f1bc)
+
 
 ### Training Loss Vs Iteration Plot
 
-![image](https://github.com/user-attachments/assets/20e68fac-3771-4d32-9ada-163a25ddb39f)
+![image](https://github.com/user-attachments/assets/2c75eb03-9800-4a7f-946d-9bc38192ebba)
+
 
 
 
