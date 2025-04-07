@@ -102,7 +102,8 @@ def train_model(my_nn, X_train, y_train, criterion, optimizer, epochs=3000):
 
 ### New Sample Data Prediction
 
-![image](https://github.com/user-attachments/assets/a6ee889b-6867-4106-8398-d440f6518c3b)
+![image](https://github.com/user-attachments/assets/20975970-9d0b-429a-97d1-e64441f1e3e7)
+
 
 
 ## RESULT
