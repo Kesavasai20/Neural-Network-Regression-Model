@@ -9,8 +9,8 @@ To develop a neural network regression model for the given dataset.
 Explain the problem statement
 
 ## Neural Network Model
+![image](https://github.com/user-attachments/assets/141e1184-ff7f-464f-a09c-e5123d000d30)
 
-![image](https://github.com/user-attachments/assets/30d42013-4d6c-4b87-bdbd-05e5e97ca08f)
 
 
 ## DESIGN STEPS
@@ -55,8 +55,7 @@ class NeuralNetwork(nn.Module):
     self.fc3 = nn.Linear(15,25)
     self.fc4 = nn.Linear(25,45)
     self.fc5 = nn.Linear(45,60)
-    self.fc6 = nn.Linear(60,85)
-    self.fc7 = nn.Linear(85,1)
+    self.fc6 = nn.Linear(60,1)
     self.relu = nn.ReLU()
     self.history = {'loss' : []}
   def forward(self, x):
@@ -65,9 +64,9 @@ class NeuralNetwork(nn.Module):
     x = self.relu(self.fc3(x))
     x = self.relu(self.fc4(x))
     x = self.relu(self.fc5(x))
-    x = self.relu(self.fc6(x))
-    x = self.fc7(x)
+    x = self.fc6(x)
     return x
+
 # Initialize the Model, Loss Function, and Optimizer
 my_nn = NeuralNetwork()
 criterion = nn.MSELoss()
